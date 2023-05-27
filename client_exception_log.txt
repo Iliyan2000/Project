@@ -1,0 +1,8 @@
+java.net.ConnectException: Connection refused: connect
+	at java.base/sun.nio.ch.Net.connect0(Native Method)
+	at java.base/sun.nio.ch.Net.connect(Net.java:579)
+	at java.base/sun.nio.ch.Net.connect(Net.java:586)
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:880)
+	at bg.sofia.uni.fmi.mjt.dungeons.client.Client.connect(Client.java:53)
+	at bg.sofia.uni.fmi.mjt.dungeons.client.Client.start(Client.java:33)
+	at bg.sofia.uni.fmi.mjt.dungeons.client.ClientStart.main(ClientStart.java:9)

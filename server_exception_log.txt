@@ -1,0 +1,9 @@
+bg.sofia.uni.fmi.mjt.dungeons.exceptions.ClientException: /127.0.0.1:58505
+	at bg.sofia.uni.fmi.mjt.dungeons.server.Server.start(Server.java:93)
+	at bg.sofia.uni.fmi.mjt.dungeons.server.ServerStart.main(ServerStart.java:26)
+Caused by: java.nio.channels.ClosedChannelException
+	at java.base/sun.nio.ch.SocketChannelImpl.ensureOpenAndConnected(SocketChannelImpl.java:222)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:410)
+	at bg.sofia.uni.fmi.mjt.dungeons.server.Server.getClientInput(Server.java:141)
+	at bg.sofia.uni.fmi.mjt.dungeons.server.Server.start(Server.java:78)
+	... 1 more
